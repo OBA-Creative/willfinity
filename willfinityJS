@@ -1,0 +1,214 @@
+<script>
+	$('#editLive').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q1]").addClass("w--tab-active");
+	$("a[data-w-tab=q1]").addClass("w--current");});
+  
+  $('#editName').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q2]").addClass("w--tab-active");
+	$("a[data-w-tab=q2]").addClass("w--current");});
+  
+  $('#editDob').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q3]").addClass("w--tab-active");
+	$("a[data-w-tab=q3]").addClass("w--current");});
+  
+  $('#editGender').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q4]").addClass("w--tab-active");
+	$("a[data-w-tab=q4]").addClass("w--current");});
+  
+  $('#editMarital').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q5]").addClass("w--tab-active");
+	$("a[data-w-tab=q5]").addClass("w--current");});
+  
+  $('#editSpouse').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q6]").addClass("w--tab-active");
+	$("a[data-w-tab=q6]").addClass("w--current");});
+  
+  $('#editSpouseDob').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q6]").addClass("w--tab-active");
+	$("a[data-w-tab=q6]").addClass("w--current");});
+  
+  $('#editSpouseGender').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q7]").addClass("w--tab-active");
+	$("a[data-w-tab=q7]").addClass("w--current");});
+  
+  $('#editChildNum').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q8]").addClass("w--tab-active");
+	$("a[data-w-tab=q8]").addClass("w--current");});
+  
+  $('#editChildName').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q9]").addClass("w--tab-active");
+	$("a[data-w-tab=q9]").addClass("w--current");});
+  
+  $('#editChildGuardians').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q10]").addClass("w--tab-active");
+	$("a[data-w-tab=q10]").addClass("w--current");});
+  
+  $('#editPetNum').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q11]").addClass("w--tab-active");
+	$("a[data-w-tab=q11]").addClass("w--current");});
+  
+  $('#editPetName').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q12]").addClass("w--tab-active");
+	$("a[data-w-tab=q12]").addClass("w--current");});
+  
+  $('#editPetGuardians').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q13]").addClass("w--tab-active");
+	$("a[data-w-tab=q13]").addClass("w--current");});
+  
+  $('#editPetTrust').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q15]").addClass("w--tab-active");
+	$("a[data-w-tab=q15]").addClass("w--current");});
+  
+  $('#editGifts').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q17]").addClass("w--tab-active");
+	$("a[data-w-tab=q17]").addClass("w--current");});
+  
+  $('#editDonations').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q19]").addClass("w--tab-active");
+	$("a[data-w-tab=q19]").addClass("w--current");});
+  
+  $('#editPrimBenefit').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q20]").addClass("w--tab-active");
+	$("a[data-w-tab=q20]").addClass("w--current");});
+  
+    $('#editIfBenfitDies').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q21]").addClass("w--tab-active");
+	$("a[data-w-tab=q21]").addClass("w--current");});
+  
+    $('#editContBenefit').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q23]").addClass("w--tab-active");
+	$("a[data-w-tab=q23]").addClass("w--current");});
+  
+  
+    $('#editAgeInherit').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q24]").addClass("w--tab-active");
+	$("a[data-w-tab=q24]").addClass("w--current");});
+  
+    $('#editSpouseExe').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q25]").addClass("w--tab-active");
+	$("a[data-w-tab=q25]").addClass("w--current");});
+  
+      $('#editRip').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q26]").addClass("w--tab-active");
+	$("a[data-w-tab=q26]").addClass("w--current");});
+  
+      $('#editSpouseAtt').on('click',function() {
+	$('#summaryTab').removeClass("w--tab-active");
+	$("div[data-w-tab=q27]").addClass("w--tab-active");
+	$("a[data-w-tab=q27]").addClass("w--current");});
+ 
+  
+        $('.done-btn').on('click',function() {
+	$('#q1Tab').removeClass("w--tab-active");
+  $('#q2Tab').removeClass("w--tab-active");
+  $('#q3Tab').removeClass("w--tab-active");
+  $('#q4Tab').removeClass("w--tab-active");
+  $('#q5Tab').removeClass("w--tab-active");
+  $('#q6Tab').removeClass("w--tab-active");
+  $('#q7Tab').removeClass("w--tab-active");
+  $('#q8Tab').removeClass("w--tab-active");
+  $('#q9Tab').removeClass("w--tab-active");
+  $('#q10Tab').removeClass("w--tab-active");
+  $('#q11Tab').removeClass("w--tab-active");
+  $('#q12Tab').removeClass("w--tab-active");
+  $('#q13Tab').removeClass("w--tab-active");
+  $('#q14Tab').removeClass("w--tab-active");
+  $('#q15Tab').removeClass("w--tab-active");
+  $('#q16Tab').removeClass("w--tab-active");
+  $('#q17Tab').removeClass("w--tab-active");
+  $('#q18Tab').removeClass("w--tab-active");
+  $('#q19Tab').removeClass("w--tab-active");
+  $('#q20Tab').removeClass("w--tab-active");
+  $('#q21Tab').removeClass("w--tab-active");
+  $('#q22Tab').removeClass("w--tab-active");
+  $('#q23Tab').removeClass("w--tab-active");
+  $('#q24Tab').removeClass("w--tab-active");
+  $('#q25Tab').removeClass("w--tab-active");
+  $('#q26Tab').removeClass("w--tab-active");
+  $('#q27Tab').removeClass("w--tab-active");
+  $('#q28Tab').removeClass("w--tab-active");
+	$("div[data-w-tab=summary]").addClass("w--tab-active");
+	$("a[data-w-tab=summary]").addClass("w--current");});
+  var counter = 0;
+  
+  function incrementCounter(){
+		counter++;
+    if (counter === 1) {
+		document.getElementById("child2").style.display = "block";
+    document.getElementById("child3").style.display = "none";
+    document.getElementById("child4").style.display = "none";
+    document.getElementById("child5").style.display = "none";
+    document.getElementById("child6").style.display = "none";
+    document.getElementById("child7").style.display = "none";
+    document.getElementById("removeChild").style.display = "block";
+    } else if (counter === 2) {
+		document.getElementById("child2").style.display = "block";
+    document.getElementById("child3").style.display = "block";
+    document.getElementById("child4").style.display = "none";
+    document.getElementById("child5").style.display = "none";
+    document.getElementById("child6").style.display = "none";
+    document.getElementById("child7").style.display = "none";
+    document.getElementById("removeChild").style.display = "block";
+    } else if (counter === 3) {
+		document.getElementById("child2").style.display = "block";
+    document.getElementById("child3").style.display = "block";
+    document.getElementById("child4").style.display = "block";
+    document.getElementById("child5").style.display = "none";
+    document.getElementById("child6").style.display = "none";
+    document.getElementById("child7").style.display = "none";
+    document.getElementById("removeChild").style.display = "block";
+    } else if (counter === 4) {
+		document.getElementById("child2").style.display = "block";
+    document.getElementById("child3").style.display = "block";
+    document.getElementById("child4").style.display = "block";
+    document.getElementById("child5").style.display = "block";
+    document.getElementById("child6").style.display = "none";
+    document.getElementById("child7").style.display = "none";
+    document.getElementById("removeChild").style.display = "block";
+    } 
+}
+
+function decrementCounter(){
+		counter--;
+    if (counter === 0) {
+		document.getElementById("drink-wrap-2").style.display = "none";
+    document.getElementById("drink-wrap-3").style.display = "none";
+    document.getElementById("drink-wrap-4").style.display = "none";
+    document.getElementById("remove-drink-wrapper").style.display = "none";
+    document.getElementById("add-drink-wrapper").style.display = "block";
+    document.getElementById("amount-2").value = 0;
+    } else if (counter === 1) {
+		document.getElementById("drink-wrap-2").style.display = "block";
+    document.getElementById("drink-wrap-3").style.display = "none";
+    document.getElementById("drink-wrap-4").style.display = "none";
+    document.getElementById("remove-drink-wrapper").style.display = "block";
+    document.getElementById("add-drink-wrapper").style.display = "block";
+    document.getElementById("amount-3").value = 0;
+    } 
+    update();
+}
+
+</script>
